@@ -1,0 +1,27 @@
+.container form {
+    display: flex;
+    gap: 30px;
+}
+
+.container input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* transition faz a transição da opacity definida no hover funcionar 
+e define o tempo pra ela ser executada*/
+.container button {
+    width: 40px;
+    height: 40px;
+    background: var(--color-purple-2);
+    color: var(--color-white-1);
+    transition: opacity 0.2s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    opacity: 0.8;
+}

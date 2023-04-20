@@ -1,0 +1,45 @@
+:root {
+    --color-white-1: #F6F6F6;
+    --color-white-2: #EBEBEC;
+    --color-gray-1: #545454;
+    --color-dark-1: #000000;
+    --color-dark-2: #02021A;
+    --color-pink-1: #FF4D8D;
+    --color-pink-2: #C323A4;
+    --color-pink-3: #E61B7B;
+    --color-blue-1: #667FFF;
+    --color-blue-2: #98D2FF;
+    --color-blue-3: #1C0084;
+    --color-blue-4: #1A202C;
+    --color-purple-1: #611F95;
+    --color-purple-2: #510385;
+    --color-purple-3: #C24EFE;
+    --color-purple-4: #A487F5;
+    --color-yellow-1: #FFD57A;
+    --color-yellow-2: #F4B200;
+    --color-green-1: #02D39F;
+    --color-orange-1: #EF7900;
+    --transition: .4s;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color-white-2);
+}
+
+/* Caso a fonte Barlow não seja encontrada, o app assume a fonte padrão do sistema 
+1rem = tamanho da fonte padrão utilizada no dispositivo, não trava o tamanho da fonte*/
+body, input, textarea, button {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+    font-weight: 700;
+}

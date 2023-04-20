@@ -1,0 +1,17 @@
+.container{
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container button {
+    width: 40px;
+    height: 40px;
+    background: var(--color-pink-1);
+    color: var(--color-white-1);
+    transition: opacity 0.2s;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

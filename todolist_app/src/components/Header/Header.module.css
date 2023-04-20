@@ -1,0 +1,29 @@
+/*display flex e justify content centralizam o conteudo */
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: var(--color-blue-4);
+    color: var(--color-white-1);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    width: 100%;
+    max-width: 1600px;
+}
+
+.content span {
+    color: var(--color-yellow-2)
+}
+
+.content a {
+    color: var(--color-white-1);
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
